@@ -33,15 +33,9 @@ public class StringIntro {
         String secondString = scanner.next();
         wordLength = wordLength + secondString.length();
 
-        int compare = firstString.compareTo(secondString);
-
         System.out.println(wordLength);
         // first word comes before second word?
-        if (compare == -1) {
-            System.out.println("No");
-        } else {
-            System.out.println("Yes");
-        }
+        System.out.println(firstString.compareTo(secondString) > 0 ? "Yes" : "No");
         // two words concatenated
         System.out.println(firstString.substring(0, 1).toUpperCase() + firstString.substring(1) + " " +
                 secondString.substring(0, 1).toUpperCase() + secondString.substring(1));

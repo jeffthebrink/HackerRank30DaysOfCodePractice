@@ -23,7 +23,8 @@ public class StringCompare {
             Scanner scanner = new Scanner(System.in);
             String inputString = scanner.next();
             int lengthOfSub = scanner.nextInt();
-            SortedSet<String> sets = new TreeSet<String>();
+            scanner.close();
+            SortedSet<String> sets = new TreeSet<>();
 
             for(int i=0;i<=inputString.length()-lengthOfSub;i++){
                 sets.add(inputString.substring(i,i+lengthOfSub));

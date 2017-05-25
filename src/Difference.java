@@ -1,6 +1,4 @@
 import java.util.Scanner;
-import java.util.SortedSet;
-import java.util.TreeSet;
 
 /**
  * The absolute difference between two integers,  and , is written as . The maximum absolute difference between two integers in a set of positive integers, , is the largest absolute difference between any two integers in .

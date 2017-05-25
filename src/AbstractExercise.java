@@ -58,7 +58,7 @@ public class AbstractExercise {}
 
 
 
-public class Solution {
+ class SolutionAbstract {
 
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);

@@ -19,7 +19,7 @@ public class StringCompare {
 
 
         public static void main(String[] args) {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named SolutionPractice. */
             Scanner scanner = new Scanner(System.in);
             String inputString = scanner.next();
             int lengthOfSub = scanner.nextInt();

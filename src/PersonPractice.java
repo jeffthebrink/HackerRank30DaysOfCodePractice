@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Person {
+public class PersonPractice {
 
     int age;
 
-    public Person(int initialAge) {
+    public PersonPractice(int initialAge) {
 
         if (initialAge < 0) {
             System.out.println("Age is not valid, setting age to 0.");
@@ -33,7 +33,7 @@ public class Person {
         int T = sc.nextInt();
         for (int i = 0; i < T; i++) {
             int age = sc.nextInt();
-            Person p = new Person(age);
+            PersonPractice p = new PersonPractice(age);
             p.amIOld();
             for (int j = 0; j < 3; j++) {
                 p.yearPasses();

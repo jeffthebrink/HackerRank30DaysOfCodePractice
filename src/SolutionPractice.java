@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Solution {
+public class SolutionPractice {
 
     public static void main(String[] argh) {
 

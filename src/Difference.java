@@ -12,14 +12,14 @@ import java.util.Scanner;
  A computeDifference method that finds the maximum absolute difference between any  numbers in  and stores it in the  instance variable.
  Input Format
 
- You are not responsible for reading any input from stdin. The locked Solution class in your editor reads in  lines of input; the first line contains , and the second line describes the  array.
+ You are not responsible for reading any input from stdin. The locked LinkedListSolution class in your editor reads in  lines of input; the first line contains , and the second line describes the  array.
 
  Constraints
 
  , where
  Output Format
 
- You are not responsible for printing any output; the Solution class will print the value of the  instance variable.
+ You are not responsible for printing any output; the LinkedListSolution class will print the value of the  instance variable.
  */
 public class Difference {
 

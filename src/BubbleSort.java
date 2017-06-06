@@ -33,9 +33,9 @@ public class BubbleSort {
                 break;
             }
         }
-        System.out.println("Array is sorted in " + numberOfSwaps + " swaps");
-        System.out.println("First element " + a[0]);
-        System.out.println("Last element " + a[a.length - 1]);
+        System.out.println("Array is sorted in " + numberOfSwaps + " swaps.");
+        System.out.println("First element: " + a[0]);
+        System.out.println("Last element: " + a[n - 1]);
     }
 
 }
